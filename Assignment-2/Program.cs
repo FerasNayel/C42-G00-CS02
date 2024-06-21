@@ -59,6 +59,14 @@ namespace Assignment_2
 
             //Console.WriteLine(lastChar);
             #endregion
+
+            #region 5-	Write C# program that Assigning one value type variable to another and modifying the value of one variable and mention what will happen
+
+            //int X = 5; int Y = 10;
+            //Y = X;
+            //X++;
+            //Console.WriteLine(X);
+            #endregion
         }
     }
 }
