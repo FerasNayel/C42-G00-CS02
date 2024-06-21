@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Assignment_2
 {
@@ -86,6 +87,18 @@ namespace Assignment_2
             //string LastName = Console.ReadLine();
             //string FullName = FirstName + " " +  LastName;
             //Console.WriteLine($"Your Full Name is {FullName}");
+            #endregion
+
+            #region 8-	Write a program that calculates the simple interest given the principal amount, rate of interest, and time. The formula for simple interest is Interest = (principal * rate * time) / 100.
+
+            //Console.WriteLine("Enter Principal Amount");
+            //double Principal_Amount =Convert.ToDouble(Console.ReadLine());
+            //Console.WriteLine("Enter rate of interest");
+            //double Rate_Of_Interest =Convert.ToDouble(Console.ReadLine());
+            //Console.WriteLine("Enter Time");
+            //double Time =Convert.ToDouble(Console.ReadLine());
+            //double Interest = (Principal_Amount * Rate_Of_Interest * Time)/100;
+            //Console.WriteLine($"Interest = {Interest}");
             #endregion
         }
     }
