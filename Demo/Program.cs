@@ -249,6 +249,25 @@ namespace Demo
             //}
             #endregion
 
+            #region Operators Periority and Associtivity
+            //1. Unary Operator (Prefix)
+            //2. Round Braces ()
+            //1. * / % 
+            //1. + -
+            //int Equation = 4 + 3 * 8;
+
+            //int a = 20;
+            //int b = 10;
+            //int c = 15;
+            //int d = 5;
+            //int Equation;
+
+            //Equation = (a + b) * c / d; // ( 30 * 15) / 5
+            //Equation = ((a + b) * c) / d; // ( 30 * 15) / 5 
+            //Equation = (a + b) * (c / d); // (30) * (15/5)
+            //Equation = a + (b * c) / d; // 20 + (150/5)
+            #endregion
+
 
             #endregion
 
