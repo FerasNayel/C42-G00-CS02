@@ -1,4 +1,5 @@
 ﻿using System.Drawing;
+using System.Runtime.CompilerServices;
 
 namespace Demo
 {
@@ -6,12 +7,12 @@ namespace Demo
     {
         static void Main(string[] args)
         {
-            #region Part4
+            #region Declaration
             //int Id = 10;
             //Console.WriteLine(Id);
             #endregion
 
-            #region Part-10
+            #region Value_Type 
             //int X;
             ////CLR Will Allocate 4 Uninitialized Bytes At STACK
             ////int : C# Keyword
@@ -26,6 +27,10 @@ namespace Demo
             //X++; //6
 
             //Console.WriteLine(Y);
+            #endregion
+
+
+            #region Refererence_Type
             //Point P1;
             /////Declare For Reference OF Type "Point" , Refering To NULL
             /////This Reference "P1" Can Refer To An Object From Type "Point" Or Another Type "Inheriting From Point"
@@ -45,9 +50,18 @@ namespace Demo
 
             ////P2.X = 10;
 
-            ////Console.WriteLine(P1.x);
+            ////Console.WriteLine(P1.x); 
+            #endregion
 
 
+
+            #region Fractions And Discard
+            //float X = 5.3F;
+            //double Y = 4.34;
+            //decimal Z = 9943.4M;
+
+            //Discard => Just For Readability
+            //    long Number = 100_000_000_000; 
             #endregion
 
         }
