@@ -67,6 +67,18 @@ namespace Assignment_2
             //X++;
             //Console.WriteLine(X);
             #endregion
+
+            #region 6-	Write C# program that Assigning one reference type variable to another and modifying the object through one variable and mention what will happen
+
+            Value V1;
+            V1 = new Value();
+            Value V2 = new Value();
+            V2 = V1;
+            V2.x = 5;
+            Console.WriteLine(V1.x);//5
+            #endregion
+            
+
         }
     }
 }
