@@ -150,6 +150,11 @@ namespace Assignment_2
 
             //a) 6.5 1
             #endregion
+
+            #region 15- What will be the output of the C# code given below?
+
+            //d) 7 7
+            #endregion
         }
     }
 }
