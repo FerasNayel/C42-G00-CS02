@@ -12,7 +12,7 @@ namespace Demo
             //Console.WriteLine(Id);
             #endregion
 
-            #region Value_Type 
+            #region Value Type 
             //int X;
             ////CLR Will Allocate 4 Uninitialized Bytes At STACK
             ////int : C# Keyword
@@ -30,7 +30,7 @@ namespace Demo
             #endregion
 
 
-            #region Refererence_Type
+            #region Refererence Type
             //Point P1;
             /////Declare For Reference OF Type "Point" , Refering To NULL
             /////This Reference "P1" Can Refer To An Object From Type "Point" Or Another Type "Inheriting From Point"
@@ -38,11 +38,11 @@ namespace Demo
             /////CLR Will Allocate 0 Bytes At HEAP
 
             //P1 = new Point(); //Has 2 References (P1 , P2)
-            /////new
-            ///// 1. Allocate Required Number of Bytes in HEAP (Object Size + CLR Overhead Variables)
-            ///// 2. Initialize (Cross Out) Allocated Bytes With Default Value Of Its Datatype
-            ///// 3. Call User-Defined Constructor If Exists
-            ///// 4. Assign The Refernce To Allocated Object
+            ///new
+            /// 1. Allocate Required Number of Bytes in HEAP (Object Size + CLR Overhead Variables)
+            /// 2. Initialize (Cross Out) Allocated Bytes With Default Value Of Its Datatype
+            /// 3. Call User-Defined Constructor If Exists
+            /// 4. Assign The Refernce To Allocated Object
 
             ////Point P2 = new Point(); //Unreachable Object
 
@@ -62,6 +62,36 @@ namespace Demo
 
             //Discard => Just For Readability
             //    long Number = 100_000_000_000; 
+            #endregion
+
+            #region Implicit Casting Vs Explicit Casting
+            ///int X = 8;
+            ///long Y = (long) X; //Implicit Casting (Safe Casting)  
+            ///Console.WriteLine(Y);
+
+            //long X = 8;
+            //X = 546313246564;
+            //int Y = X.GetType() == typeof(int) ? (int)X  : 0;
+            //Console.WriteLine(Y);
+
+            ///checked
+            ///{
+            ///    int Y = (int)X; //Explicit Casting (Unsafe Casting) 
+
+            ///    unchecked
+            ///    {
+            ///        Console.WriteLine(Y);
+            ///    }
+
+            ///}
+
+            #region Convert
+            // Convert : Is a Class Containing ASet Of Methods used for Casting From Datatype to Another
+            Console.WriteLine("Please Enter Your Name: ");
+            string Name = Console.ReadLine() ?? "NA";
+            #endregion
+
+
             #endregion
 
         }
