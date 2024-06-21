@@ -76,9 +76,17 @@ namespace Assignment_2
             //V2 = V1;
             //V2.x = 5;
             //Console.WriteLine(V1.x);//5
-            //#endregion
-            
+            #endregion
 
+            #region 7 - Write C# program that take two string variables and print them as one variable 
+
+            //Console.WriteLine("Enter your First Name:");
+            //string FirstName = Console.ReadLine();
+            //Console.WriteLine("Enter your Last Name:");
+            //string LastName = Console.ReadLine();
+            //string FullName = FirstName + " " +  LastName;
+            //Console.WriteLine($"Your Full Name is {FullName}");
+            #endregion
         }
     }
 }
