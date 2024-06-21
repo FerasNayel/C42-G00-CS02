@@ -89,6 +89,20 @@ namespace Demo
             // Convert : Is a Class Containing ASet Of Methods used for Casting From Datatype to Another
             Console.WriteLine("Please Enter Your Name: ");
             string Name = Console.ReadLine() ?? "NA";
+
+            Console.WriteLine("Please Enter Your Age: ");
+            int Age = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Please Enter Your Salary: ");
+            decimal Salary = Convert.ToDecimal(Console.ReadLine());
+
+            Console.Clear();
+            Console.Beep(500 , 5);
+
+            Console.WriteLine("Your Name is " + Name);
+            Console.WriteLine("Your Age is " + Age);
+            Console.WriteLine("Your Salary is " + Salary);
+
             #endregion
 
 
