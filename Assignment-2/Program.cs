@@ -15,7 +15,7 @@ namespace Assignment_2
             #region  2 - Write C# program that Convert a string to an integer, but the string contains non-numeric characters.And mention what will happen 
 
             //Console.WriteLine("Enter Input: ");
-            
+
             //string Input = Console.ReadLine();
 
             //int Output;
@@ -29,10 +29,24 @@ namespace Assignment_2
             //    Console.WriteLine("Can't Convert Non-numeric characters");
             //}
 
-                    //If The String contains only numeric charachters it will be converted to integer
-                    //If The String contains non-numeric characters it will not be converted
+            //If The String contains only numeric charachters it will be converted to integer
+            //If The String contains non-numeric characters it will not be converted
             #endregion
 
+            #region 3-Write C# program that Perform a simple arithmetic operation with floating-point numbers And mention what will happen
+                
+            //float number1 = 30.28F , number2 = 50.5F;
+            //float Sum = number1 + number2;
+            //Console.WriteLine(Sum);//80.78
+            //float Difference = number2 - number1;
+            //Console.WriteLine(Difference);//20.22
+            //float Multiplication = number1 * number2;
+            //Console.WriteLine(Multiplication);//1529.14
+            //float Division = number2 / number1;//1.6677675
+            //Console.WriteLine(Division);
+
+
+            #endregion
         }
     }
 }
