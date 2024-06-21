@@ -34,7 +34,7 @@ namespace Assignment_2
             #endregion
 
             #region 3-Write C# program that Perform a simple arithmetic operation with floating-point numbers And mention what will happen
-                
+
             //float number1 = 30.28F , number2 = 50.5F;
             //float Sum = number1 + number2;
             //Console.WriteLine(Sum);//80.78
@@ -46,6 +46,18 @@ namespace Assignment_2
             //Console.WriteLine(Division);
 
 
+            #endregion
+
+            #region 4-	Write C# program that Extract a substring from a given string.
+
+            //Console.WriteLine("Enter Text: ");
+            //string name = "Hello World!";
+
+            //int charPosition = name.IndexOf("W");
+
+            //string lastChar = name.Substring(charPosition);
+
+            //Console.WriteLine(lastChar);
             #endregion
         }
     }
