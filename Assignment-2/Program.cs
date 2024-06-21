@@ -121,6 +121,22 @@ namespace Assignment_2
             //string Status = Temp < 10 ? "Just Cold" : Temp > 30 ? "Just Hot" : "Just Good";
             //Console.WriteLine($"Status = {Status}");
             #endregion
+
+            #region 11-	Write a program that takes the date from user and displays it in various formats using string interpolation. Ex: Today’s date : 20 , 11 , 2001 Today's date : 20 / 11 / 2001 Today's date : 20 – 11 – 2001
+
+            //Console.WriteLine("Enter Day");
+            //int Day = int.Parse( Console.ReadLine());
+            //Console.WriteLine("Enter Month");
+            //int Month = int.Parse( Console.ReadLine());
+            //Console.WriteLine("Enter Year");
+            //int Year = int.Parse( Console.ReadLine());
+            //Console.WriteLine($"Today's Date : {Day} , {Month} , {Year}");
+            //Console.WriteLine($"Today's Date : {Day} / {Month} / {Year}");
+            //Console.WriteLine($"Today's Date : {Day} - {Month} - {Year}");
+
+            #endregion
+        
+
         }
     }
 }
