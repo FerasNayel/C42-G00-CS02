@@ -85,28 +85,71 @@ namespace Demo
 
             ///}
 
+            #endregion
+
+
+            #region Convert And Parse
+
             #region Convert
             // Convert : Is a Class Containing ASet Of Methods used for Casting From Datatype to Another
-            Console.WriteLine("Please Enter Your Name: ");
-            string Name = Console.ReadLine() ?? "NA";
+            //Console.WriteLine("Please Enter Your Name: ");
+            //string Name = Console.ReadLine() ?? "NA";
 
-            Console.WriteLine("Please Enter Your Age: ");
-            int Age = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine("Please Enter Your Age: ");
+            //int Age = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("Please Enter Your Salary: ");
-            decimal Salary = Convert.ToDecimal(Console.ReadLine());
+            //Console.WriteLine("Please Enter Your Salary: ");
+            //decimal Salary = Convert.ToDecimal(Console.ReadLine());
 
-            Console.Clear();
-            Console.Beep(500 , 5);
+            //Console.Clear();
+            //Console.Beep(500 , 5);
 
-            Console.WriteLine("Your Name is " + Name);
-            Console.WriteLine("Your Age is " + Age);
-            Console.WriteLine("Your Salary is " + Salary);
+            //Console.WriteLine("Your Name is " + Name);
+            //Console.WriteLine("Your Age is " + Age);
+            //Console.WriteLine("Your Salary is " + Salary);
+
+            #endregion
+
+            #region Parse
+
+            //Parse : Is a Method used for Casting from String to the Caller Dataype
+            //Console.WriteLine("Please Enter Your Name: ");
+            //string Name = Console.ReadLine() ?? "NA";
+
+            //Console.WriteLine("Please Enter Your Age: ");
+            //int Age = int.Parse(Console.ReadLine());
+
+            //Console.WriteLine("Please Enter Your Salary: ");
+            //decimal Salary = Decimal.Parse(Console.ReadLine());
+
+            //Console.Clear();
+            //Console.Beep(500, 5);
+
+            //Console.WriteLine("Your Name is " + Name);
+            //Console.WriteLine("Your Age is " + Age);
+            //Console.WriteLine("Your Salary is " + Salary);
+
 
             #endregion
 
+            //string X = "5";
 
+            //X = "Ahmed";
+
+            //int Y = int.Parse(X);
+
+            //Console.WriteLine(Y);
+
+
+            string X = "true";
+
+            X = "Hamada";
+
+            bool flag = Convert.ToBoolean(X);
+            Console.WriteLine(flag); 
             #endregion
+
+
 
         }
     }
