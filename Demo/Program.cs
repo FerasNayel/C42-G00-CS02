@@ -268,7 +268,19 @@ namespace Demo
             //Equation = a + (b * c) / d; // 20 + (150/5)
             #endregion
 
+            #region String Formatting
+            //int X = 3 ; int Y = 4;
+            //string Message = ;
 
+            ////1. Composite String 
+            //Message = string.Format("Equation : {0} + {1} = {2} " , X , Y , (X + Y));
+
+            ////2.String Interpolation
+            //// $ : Manupilation Operator
+            //Message = $"Equation: {X} + {Y} = {X + Y}  ";
+            //Console.WriteLine(Message);
+
+            #endregion
             #endregion
 
 
