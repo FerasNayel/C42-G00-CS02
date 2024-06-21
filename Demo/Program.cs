@@ -141,14 +141,116 @@ namespace Demo
             //Console.WriteLine(Y);
 
 
-            string X = "true";
+            //string X = "true";
 
-            X = "Hamada";
+            //X = "Hamada";
 
-            bool flag = Convert.ToBoolean(X);
-            Console.WriteLine(flag); 
+            //bool flag = Convert.ToBoolean(X);
+            //Console.WriteLine(flag);
             #endregion
 
+            #region Try Parse
+            //string X = "10";
+
+            //int Y;
+
+            //bool flag =  int.TryParse(X, out Y); //If Casting Failed , No Exception Will Be Thrown
+            //Console.WriteLine(flag); //true
+            //Console.WriteLine(Y); //10
+
+            #endregion
+
+            #region Operators
+
+            #region Unary Operator
+            //Unary Operators 
+            //int X = 10;
+
+            ////1. ++
+
+            ////1.1 Prefix (Increment and then Print)
+            //Console.WriteLine(++X); //Print 11
+            ////1.2 Postfix (Print and then Increment )
+            //Console.WriteLine(X++); //Print 10
+
+            ////2. --
+
+            ////1.1 Prefix (Decrement and then Print)
+            //Console.WriteLine(--X); //Print 9
+            ////1.2 Postfix (Print and then Decrement )
+            //Console.WriteLine(X--); //Print 10
+
+
+            #endregion
+
+            #region Binary Operators
+            //Binary Operators => Works on Two Operands (Variables)
+            //int Sum, Mul, Div, Sub, Mod;
+            //int Num1 = 2 , Num2 = 6;
+
+            //Sum = Num1 + Num2;
+            //Sub = Num2 - Num1;
+            //Mul = Num1 * Num2;
+            //Div = Num1 / Num2;
+            //Mod = Num2 % Num1;
+
+            #endregion
+
+            #region Assignment Operator
+
+            //int X;
+            //X = 4;
+            //X += 4; // X = X + 2
+            //X -= 4; // X = X - 2
+            //X *= 4; // X = X * 2
+            //X /= 4; // X = X / 2
+            //X %= 4; // X = X % 2
+            //#endregion
+
+            #endregion
+
+            #region Relational Operators
+
+            //int X = 6, Y = 5;
+            //Console.WriteLine(X == Y); // Equal
+            //Console.WriteLine(X != Y); // Not Equal
+            //Console.WriteLine(X > Y); // More Than
+            //Console.WriteLine(X < Y); // Less Than
+            //Console.WriteLine(X >= Y); // More Than or Equal
+            //Console.WriteLine(X <= Y); //Less Than or Equal
+            #endregion
+
+            #region Logical Operators
+
+            //Console.WriteLine(!false);
+            //Console.WriteLine(!false && true); // Short Circuit
+            //Console.WriteLine(true || false);
+            //Console.WriteLine(4 < 5 && 7 < 9);
+            #endregion
+
+            #region Bitwise Operator
+            Console.WriteLine(~0);
+            Console.WriteLine(false & true); // Long Circuit
+            Console.WriteLine(true | false);
+            #endregion
+
+            #region Ternary Operator
+
+            //int X = 10, Y = 5;
+            //string Message = X > Y ? "X is more than Y": X < Y? "X is less than Y": "X equals Y";
+            //Console.WriteLine(Message);
+            ////if (X > Y)
+            //{
+            //    Message = "X is more than Y";
+            //}
+            //else if (Y > X)
+            //{
+            //    Message = "Y is more than X";
+            //}
+            #endregion
+
+
+            #endregion
 
 
         }
