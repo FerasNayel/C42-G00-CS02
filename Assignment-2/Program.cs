@@ -100,6 +100,18 @@ namespace Assignment_2
             //double Interest = (Principal_Amount * Rate_Of_Interest * Time)/100;
             //Console.WriteLine($"Interest = {Interest}");
             #endregion
+
+            #region 9-	Write a program that calculates the Body Mass Index (BMI) given a person's weight in kilograms and height in meters. The formula for BMI is BMI = (Weight) / (Height * Height)
+
+            //Console.WriteLine("Enter Your Weight");
+            //decimal Weight = Convert.ToDecimal(Console.ReadLine());
+            //Console.WriteLine($"Your Weight = {Weight} KG ");
+            //Console.WriteLine("Enter Your Height");
+            //decimal Height = Convert.ToDecimal(Console.ReadLine());
+            //Console.WriteLine($"Your Height = {Height} cm ");
+            //decimal BMI = Weight / (Height *  Height);
+            //Console.WriteLine($"Your BMI is {BMI} ");
+            #endregion
         }
     }
 }
