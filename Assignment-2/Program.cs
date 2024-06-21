@@ -145,6 +145,11 @@ namespace Assignment_2
 
             //f) A value 1 will be assigned to d.
             #endregion
+
+            #region 14-	Which of the following is the correct output for the C# code given below?
+
+            //a) 6.5 1
+            #endregion
         }
     }
 }
