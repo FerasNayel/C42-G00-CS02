@@ -135,8 +135,11 @@ namespace Assignment_2
             //Console.WriteLine($"Today's Date : {Day} - {Month} - {Year}");
 
             #endregion
-        
 
+            #region 12-	 What is the output of the following C# code?
+
+            //c) The Event is on 06/14/2024
+            #endregion
         }
     }
 }
