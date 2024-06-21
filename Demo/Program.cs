@@ -268,6 +268,8 @@ namespace Demo
             //Equation = a + (b * c) / d; // 20 + (150/5)
             #endregion
 
+            #endregion
+
             #region String Formatting
             //int X = 3 ; int Y = 4;
             //string Message = ;
@@ -280,7 +282,6 @@ namespace Demo
             //Message = $"Equation: {X} + {Y} = {X + Y}  ";
             //Console.WriteLine(Message);
 
-            #endregion
             #endregion
 
 
