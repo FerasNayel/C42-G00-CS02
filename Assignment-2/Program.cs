@@ -140,6 +140,11 @@ namespace Assignment_2
 
             //c) The Event is on 06/14/2024
             #endregion
+
+            #region 13-	Which of the following statements is correct about the C#.NET code snippet given below?
+
+            //f) A value 1 will be assigned to d.
+            #endregion
         }
     }
 }
