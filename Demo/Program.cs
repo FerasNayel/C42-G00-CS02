@@ -53,7 +53,52 @@ namespace Demo
             ////Console.WriteLine(P1.x); 
             #endregion
 
+            #region Objects
+            #region Part-1
 
+
+            //Point P1 = new Point();
+            //Point P2 = new Point();
+
+            //Console.WriteLine(P1.ToString);
+
+            //Console.WriteLine(P1.GetHashCode);
+            //Console.WriteLine(P2.GetHashCode);
+
+            //Console.WriteLine(P1.Equals(P2));
+            //Console.WriteLine(P1.GetType());
+
+            //object O1;
+            //Declare fro reference of type "Object" , refering to Null.
+            //4 Bytes have been allocated at STACK for the reference "01".
+            //0 Bytes Have been allocated at HEAP.
+            //This refernce "01" can refer to an instance of type "Object"or of another type "inheriting from object".
+
+            //O1 = new object();
+            //O1 = new string ("Feras");
+            //O1 = "Feras" // Syntax Sugar
+            //O1 = 5; //Boxing
+            //O1 = 3.3;
+            //O1 = 'A';
+            //O1 = true;
+            //O1 = new DateTime();
+            //O1 = new DateOnly();
+            //O1 = new TimeOnly();
+
+            #endregion
+            #region Part-2
+            
+            object A1 = new Point();
+            object A2 = new string("Ahmed");
+
+            
+
+            //Parent = Child
+            //Animal = Dog
+
+
+            #endregion
+            #endregion
 
             #region Fractions And Discard
             //float X = 5.3F;
